@@ -10,7 +10,8 @@ import sys
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from database import DatabaseConnection
-from feature_engineering import FeatureEngineer
+from modeling.feature_engineering import FeatureEngineer
+
 
 class PredictionGenerator:
     """Generate predictions using trained model."""
