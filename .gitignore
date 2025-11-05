@@ -251,6 +251,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+kaggle/
 
 # OS
 .DS_Store
